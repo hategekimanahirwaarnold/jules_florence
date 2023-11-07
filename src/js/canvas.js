@@ -166,27 +166,6 @@ function initGalaxy() {
 let rotateRadians = 0;
 let a = 1;
 
-
-// function animate() {
-//   requestAnimationFrame(animate)
-//   c.fillStyle = `rgba(8, 8, 8, ${a})`
-//   c.fillRect(0, 0, canvas.width, canvas.height);
-
-//  c.save()
-//  c.translate( canvas.width / 2, canvas.height / 2)
-//  c.rotate(rotateRadians)
-//   planets.forEach((particle) => {
-//     particle.update();
-//   })
-//  c.restore()
-//  rotateRadians += 0.001;
-//  if (mouseDown && a > 0.05) {
-//   a -= 0.01;
-//  } else if (!mouseDown && a < 1) {
-//   a += 0.01
-//  }
-// }
-
 // Animation Loop
 let rotateDeg = 0;
 function animate() {
@@ -229,4 +208,3 @@ init()
 initGalaxy()
 animate()
 newLove()
-
