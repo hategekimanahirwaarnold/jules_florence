@@ -1,0 +1,17 @@
+body {
+margin: 0;
+}
+
+#overlay {
+position: absolute;
+top: 0;
+left: 0;
+z-index: 1;
+color: red;
+width: 100%;
+text-align: center;
+/* Place the overlay on top of the canvas */
+}
+#jules {
+width: 200;
+}
